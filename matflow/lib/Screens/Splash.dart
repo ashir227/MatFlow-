@@ -24,9 +24,9 @@ class _SplashScrState extends State<SplashScr> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [Image.asset("assets/images/MatFlow.png")],
+      backgroundColor: Colors.white,
+      body: Center(
+        child: Container(child: Image.asset("assets/images/MatFlow.png")),
       ),
     );
   }
